@@ -6989,6 +6989,9 @@ nv.models.multiBarChart = function() {
     chart.yAxis = yAxis;
     chart.state = state;
 
+    //JAG
+    chart.controls = controls
+
     chart.options = nv.utils.optionsFunc.bind(chart);
 
     chart._options = Object.create({}, {
